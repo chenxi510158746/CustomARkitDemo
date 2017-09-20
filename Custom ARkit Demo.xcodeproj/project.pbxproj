@@ -14,10 +14,7 @@
 		15C927DB1F305B0D00394BB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C927DA1F305B0D00394BB3 /* Assets.xcassets */; };
 		15C927DE1F305B0D00394BB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C927DC1F305B0D00394BB3 /* LaunchScreen.storyboard */; };
 		15C927E11F305B0D00394BB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C927E01F305B0D00394BB3 /* main.m */; };
-		15C927EB1F305B0D00394BB3 /* Custom_ARkit_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C927EA1F305B0D00394BB3 /* Custom_ARkit_DemoTests.m */; };
-		15C927F61F305B0D00394BB3 /* Custom_ARkit_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C927F51F305B0D00394BB3 /* Custom_ARkit_DemoUITests.m */; };
 		15C928051F305C1900394BB3 /* ARSCNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C928041F305C1900394BB3 /* ARSCNViewController.m */; };
-		15DE39D81F3AADAF00C83801 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DE39D71F3AADAE00C83801 /* Models.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		154A0D8D1F39AB14000ADA1F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		15534E2D1F72248B00FD20B3 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = SOURCE_ROOT; };
 		15C927CB1F305B0D00394BB3 /* Custom ARkit Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom ARkit Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C927CE1F305B0D00394BB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15C927CF1F305B0D00394BB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,14 +49,9 @@
 		15C927DF1F305B0D00394BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15C927E01F305B0D00394BB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15C927E61F305B0D00394BB3 /* Custom ARkit DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom ARkit DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		15C927EA1F305B0D00394BB3 /* Custom_ARkit_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Custom_ARkit_DemoTests.m; sourceTree = "<group>"; };
-		15C927EC1F305B0D00394BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15C927F11F305B0D00394BB3 /* Custom ARkit DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom ARkit DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		15C927F51F305B0D00394BB3 /* Custom_ARkit_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Custom_ARkit_DemoUITests.m; sourceTree = "<group>"; };
-		15C927F71F305B0D00394BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15C928031F305C1900394BB3 /* ARSCNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARSCNViewController.h; sourceTree = "<group>"; };
 		15C928041F305C1900394BB3 /* ARSCNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARSCNViewController.m; sourceTree = "<group>"; };
-		15DE39D71F3AADAE00C83801 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = Models.scnassets; path = "../../../../Downloads/ARKit自定义实现/ARKit自定义实现/Models.scnassets"; sourceTree = "<group>"; };
 		15DF8D591F3C02AB004591C4 /* tron_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tron_grid.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,8 +85,6 @@
 			children = (
 				154A0D8D1F39AB14000ADA1F /* Default-568h@2x.png */,
 				15C927CD1F305B0D00394BB3 /* Custom ARkit Demo */,
-				15C927E91F305B0D00394BB3 /* Custom ARkit DemoTests */,
-				15C927F41F305B0D00394BB3 /* Custom ARkit DemoUITests */,
 				15C927CC1F305B0D00394BB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,8 +102,8 @@
 		15C927CD1F305B0D00394BB3 /* Custom ARkit Demo */ = {
 			isa = PBXGroup;
 			children = (
+				15534E2D1F72248B00FD20B3 /* Models.scnassets */,
 				15DF8D591F3C02AB004591C4 /* tron_grid.png */,
-				15DE39D71F3AADAE00C83801 /* Models.scnassets */,
 				15C928031F305C1900394BB3 /* ARSCNViewController.h */,
 				15C928041F305C1900394BB3 /* ARSCNViewController.m */,
 				15C927CE1F305B0D00394BB3 /* AppDelegate.h */,
@@ -127,24 +118,6 @@
 				15C927D71F305B0D00394BB3 /* Custom_ARkit_Demo.xcdatamodeld */,
 			);
 			path = "Custom ARkit Demo";
-			sourceTree = "<group>";
-		};
-		15C927E91F305B0D00394BB3 /* Custom ARkit DemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				15C927EA1F305B0D00394BB3 /* Custom_ARkit_DemoTests.m */,
-				15C927EC1F305B0D00394BB3 /* Info.plist */,
-			);
-			path = "Custom ARkit DemoTests";
-			sourceTree = "<group>";
-		};
-		15C927F41F305B0D00394BB3 /* Custom ARkit DemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				15C927F51F305B0D00394BB3 /* Custom_ARkit_DemoUITests.m */,
-				15C927F71F305B0D00394BB3 /* Info.plist */,
-			);
-			path = "Custom ARkit DemoUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +224,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				15C927DE1F305B0D00394BB3 /* LaunchScreen.storyboard in Resources */,
-				15DE39D81F3AADAF00C83801 /* Models.scnassets in Resources */,
 				15C927DB1F305B0D00394BB3 /* Assets.xcassets in Resources */,
 				15C927D61F305B0D00394BB3 /* Main.storyboard in Resources */,
 			);
@@ -290,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15C927EB1F305B0D00394BB3 /* Custom_ARkit_DemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15C927F61F305B0D00394BB3 /* Custom_ARkit_DemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
